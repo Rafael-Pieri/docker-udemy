@@ -10,3 +10,11 @@ Projeto para Envio de E-mails com Workers.
 Execute o comando abaixo para inicializá-la:
 
 ```docker-compose up```
+
+
+```docker-compose up -d --scale worker=3```
+
+Acessar a aplicação
+```localhost```
+
+```docker-compose exec db psql -U postgres email_sender -c 'select * from emails'```
