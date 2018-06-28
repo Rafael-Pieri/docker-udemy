@@ -3,8 +3,7 @@
 ### Overview
 Projeto para Envio de E-mails com Workers.
 
-### Arquitetura:
-
+### Arquitetura
 ![alt text](https://github.com/Rafael-Pieri/docker-udemy/blob/master/images/worker-architecture.png)
 
 ### Como subir a aplicação
