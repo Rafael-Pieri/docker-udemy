@@ -8,15 +8,16 @@ Projeto para Envio de E-mails com Workers.
 
 ### Como subir a aplicação
 Execute o comando abaixo para subir os componentes da aplicação:
-```docker-compose up```
+    ```docker-compose up```
 
 Caso queira escalar os workers, execute o comando abaixo informando a quantidade de instâncias:
-```docker-compose up -d --scale worker=3```
+    ```docker-compose up -d --scale worker=3```
 
 Com a aplicação inicializada, acesse-a em:
-```localhost```
+    ```localhost```
 
 Será apresentada a página abaixo:
+
 ![alt text](https://github.com/Rafael-Pieri/docker-udemy/blob/master/images/pagina-enviador-email.png)
 
 Ao informar o assunto e a mensagem, clique em 'Enviar'. A página abaixo será apresentada:
