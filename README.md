@@ -1,4 +1,4 @@
-## Udemy - Docker: Ferramenta essencial para Desenvolvedores
+## Projeto utilizando Docker
 
 ### Overview
 Projeto para Envio de E-mails com Workers.
